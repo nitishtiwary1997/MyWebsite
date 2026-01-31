@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Products - NT Digital Solutions</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">NitiLabs</div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="products.html" class="active">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>My Products</h1>
+            <p>Explore our mobile apps and educational courses</p>
+        </div>
+    </section>
+
+    <section class="products-content">
+        <div class="container">
+            <!-- Mobile Apps Section -->
+            <div class="products-section">
+                <h2 class="section-title">Mobile Applications</h2>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <div class="product-icon">📱</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Android Apps</h3>
+                            <p class="product-category">Native Android Development</p>
+                            <p class="product-description">High-performance Android applications built with Kotlin and Java. Optimized for all Android devices with modern Material Design.</p>
+                            <div class="product-features">
+                                <span class="feature-tag">Material Design</span>
+                                <span class="feature-tag">Kotlin</span>
+                                <span class="feature-tag">Play Store Ready</span>
+                            </div>
+                            <a href="products-list.html?platform=android" class="product-btn">Get Started</a>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <div class="product-icon">🍎</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>iOS Apps</h3>
+                            <p class="product-category">Native iOS Development</p>
+                            <p class="product-description">Beautiful iOS applications for iPhone and iPad. Built with Swift following Apple's Human Interface Guidelines.</p>
+                            <div class="product-features">
+                                <span class="feature-tag">Swift</span>
+                                <span class="feature-tag">iOS Design</span>
+                                <span class="feature-tag">App Store Ready</span>
+                            </div>
+                            <a href="products-list.html?platform=ios" class="product-btn">Get Started</a>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <div class="product-icon">🎯</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Cross-Platform Apps</h3>
+                            <p class="product-category">Flutter Development</p>
+                            <p class="product-description">Single codebase apps that work seamlessly on both Android and iOS. Fast, beautiful, and cost-effective solutions.</p>
+                            <div class="product-features">
+                                <span class="feature-tag">Flutter</span>
+                                <span class="feature-tag">Cross-Platform</span>
+                                <span class="feature-tag">Dart</span>
+                            </div>
+                            <a href="product-detail.html?type=flutter" class="product-btn">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Educational Courses Section -->
+            <div class="products-section">
+                <h2 class="section-title">Educational Courses</h2>
+                <div class="products-grid">
+                    <div class="product-card featured">
+                        <div class="product-badge">Popular</div>
+                        <div class="product-image">
+                            <div class="product-icon">🎓</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Flutter App Development for Kids</h3>
+                            <p class="product-category">Online Learning Course</p>
+                            <p class="product-description">Interactive online classes designed specifically for children. Learn Flutter app development through fun projects and hands-on coding sessions.</p>
+                            <div class="product-features">
+                                <span class="feature-tag">Live Sessions</span>
+                                <span class="feature-tag">Project-Based</span>
+                                <span class="feature-tag">Age 10+</span>
+                                <span class="feature-tag">Certificate</span>
+                            </div>
+                            <div class="course-details">
+                                <div class="course-item">
+                                    <strong>Duration:</strong> 8-12 Weeks
+                                </div>
+                                <div class="course-item">
+                                    <strong>Format:</strong> Online Live Classes
+                                </div>
+                                <div class="course-item">
+                                    <strong>Projects:</strong> 5+ Real Apps
+                                </div>
+                            </div>
+                            <a href="product-detail.html?type=course" class="product-btn">Enroll Now</a>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <div class="product-icon">📚</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Android Development Basics</h3>
+                            <p class="product-category">Beginner Course</p>
+                            <p class="product-description">Learn Android app development from scratch. Perfect for beginners who want to start their mobile development journey.</p>
+                            <div class="product-features">
+                                <span class="feature-tag">Java/Kotlin</span>
+                                <span class="feature-tag">Android Studio</span>
+                                <span class="feature-tag">Beginner Friendly</span>
+                            </div>
+                            <a href="product-detail.html?type=android" class="product-btn">Learn More</a>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <div class="product-icon">💻</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>iOS Development Fundamentals</h3>
+                            <p class="product-category">Structured Course</p>
+                            <p class="product-description">Master iOS app development with Swift. Build beautiful apps for iPhone and iPad with this comprehensive course.</p>
+                            <div class="product-features">
+                                <span class="feature-tag">Swift</span>
+                                <span class="feature-tag">Xcode</span>
+                                <span class="feature-tag">iOS Design</span>
+                            </div>
+                            <a href="product-detail.html?type=ios" class="product-btn">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2>Interested in Our Products?</h2>
+            <p>Get a custom mobile app developed or enroll in our courses today</p>
+            <a href="contact.html" class="btn btn-secondary">Contact Us</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 NT Digital Solutions. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

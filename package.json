@@ -1,0 +1,17 @@
+{
+  "name": "business-website",
+  "version": "1.0.0",
+  "description": "A modern business website template",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "website",
+    "business",
+    "portfolio"
+  ],
+  "author": "",
+  "license": "MIT"
+}
